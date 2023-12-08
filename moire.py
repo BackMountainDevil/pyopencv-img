@@ -1,3 +1,21 @@
+"""
+在线网站（能去一点，这个网站功能不少）：https://imageamigo.com/demoire/
+
+[CVMI-Lab/UHDM](https://github.com/CVMI-Lab/UHDM): Towards Efficient and Scale-Robust Ultra-High-Definition Image Demoireing (ECCV2022). 新增 4k 数据集
+
+[zhenngbolun/Learnbale_Bandpass_Filter](https://github.com/zhenngbolun/Learnbale_Bandpass_Filter): Image Demoireing with Learnable Bandpass Filters. (CVPR 2020). AIM2019 LCDMoire2019 dataset. issues/13 中提到 AIM2019数据集是生成的数据集(不是真实的数据集)。根据作者的经验，在TIP2018数据集上训练的模型权值对于真实图像去噪具有更强的鲁棒性。
+
+[Rheaaaaayy/HRDN-DEMOIR](https://github.com/Rheaaaaayy/HRDN-DEMOIRE): HIGH RESOLUTION DEMOIRE NETWORK
+
+下面的要自己训模型
+
+[JerryLeolfl/pytorch-MRGAN-master](https://github.com/JerryLeolfl/pytorch-MRGAN-master):Code of the moire removal method "Unsupervised Moire Patterns Removal for Recaptured Screen Images". 有分享数据集、未分享模型
+
+评价方法:峰值信噪比(PSNR)、结构相似度(SSIM)、学习感知图像斑块相似度(LPIPS)
+
+比赛：Advances in Image Manipulation (AIM) ,   New Trends in Image Restoration and Enhancement (NTIRE) 
+"""
+
 import cv2
 import numpy as np
 
